@@ -1,0 +1,38 @@
+.product td,th{
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+.product th{
+    padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #04AA6D;
+  color: white;
+  cursor: pointer;
+}
+.product table{
+    width: 100%;
+}
+.product tr:nth-child(even){background-color: #f2f2f2;}
+
+.product tr:hover {background-color: #ddd;}
+
+.product .dropdown-content{
+    display: none;
+    position: absolute;
+    min-width: 50px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+ }
+ .product th:hover .dropdown-content
+ {
+     display: block;
+ }
+ .product .dropdown-content a
+{
+    display: block;
+    background-color:black;
+    list-style-type: none;
+    text-decoration:none;
+    padding: 10px;
+    cursor: pointer;
+}

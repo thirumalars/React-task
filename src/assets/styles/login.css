@@ -1,0 +1,57 @@
+.Login
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+.Login .forminput input
+{
+    padding: 10px;
+    border-radius: 25px;
+    width: 230px;
+    outline: none;
+}
+.Login .error
+{
+    color: red;
+    font-size: small;
+    height: 15px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    width: 95%;
+    overflow: hidden;
+}
+.Login .forminput
+{
+    margin: 10px;
+}
+.Login .forminput input
+{
+    padding-left: 30px;
+}
+.Login .forminput i
+{
+    position: absolute;
+    width: 40px;
+    margin-top: 10px;
+}
+
+.Login .formbutton button
+{
+    background-color: red;
+    color: white;
+    padding: 10px;
+    border-radius: 25px;
+    width: 271px;
+    margin-top:10px;
+    
+}
+.Login .newregister a
+{
+    color: red;
+    padding: 5px;
+    cursor: pointer;
+}

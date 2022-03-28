@@ -1,0 +1,60 @@
+.dialog-base {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: 5;
+    top: 0px;
+    background-color: rgba(0,0,0,0.3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dialog-base .window {
+    height: 65%;
+    width: 55%;
+    background-color: white;
+    box-shadow: 3px 3px 5px #c5c4c4;
+}
+.dialog-base .window .task
+{
+    height: 100%;
+    width: 100%;
+}
+.dialog-base .window .task div
+{
+    display: flex;
+    justify-content: flex-end;
+    padding: .5em;
+}
+
+.dialog-base .window .task div label
+{
+    padding: .5em 1em .5em 0;
+    flex: 1;
+    font-size: 20px;
+}
+.dialog-base .window .task div input,textarea
+{
+    flex: 2;
+    margin-right: 10px;
+}
+.dialog-base .window .task div textarea
+{
+    padding-bottom: 40px;
+    min-height: 50px;
+    max-height: 100px;
+}
+.dialog-base .window .task div button
+{
+    padding: 10px;
+    background: gray;
+    color: white;
+    border: 0;
+    margin: 20px;
+    
+}
+.dialog-base .window .task
+{
+    color: red;
+}
